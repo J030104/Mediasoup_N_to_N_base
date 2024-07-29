@@ -1,0 +1,15 @@
+version: '3.5'
+
+services:
+  node_soup:
+    container_name: mediasoup_server
+    image: "ubuntu_0721"
+    build:
+      context: .
+    volumes:
+      - ./Complete_Example:/usr/code
+    restart: "always"
+    tty: true
+    ports:
+      - "5000:5000"
+      - "6000-6020:6000-6020"    
