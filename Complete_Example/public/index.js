@@ -41,19 +41,19 @@ let params = {
     // track: videoTrack, // Will be added later
     encodings: [
         {
-            // rid: 'r0',
+            rid: 'r0',
             maxBitrate: 100000,
-            // scalabilityMode: 'S1T3'
+            scalabilityMode: 'S1T3'
         },
         {
-            // rid: 'r1',
+            rid: 'r1',
             maxBitrate: 300000,
-            // scalabilityMode: 'S1T3'
+            scalabilityMode: 'S1T3'
         },
         {
-            // rid: 'r2',
+            rid: 'r2',
             maxBitrate: 900000,
-            // scalabilityMode: 'S1T3'
+            scalabilityMode: 'S1T3'
         }
     ],
     // https://mediasoup.org/documentation/v3/mediasoup-client/api/#ProducerCodecOptions

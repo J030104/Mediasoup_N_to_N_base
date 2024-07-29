@@ -1,32 +1,40 @@
 <html>
-  <head>
+
+<head>
     <style>
         button {
             margin: 2;
         }
+
         tr {
             vertical-align: top;
         }
+
         video {
             width: 360px;
             background-color: black;
             padding: 10;
             margin: 1px 1px;
         }
+
         .mainTable {
+            /* ? */
             width: 100%;
         }
+        
         .localColumn {
             width: 246px;
         }
+
         .remoteColumn {
             display: flex;
             flex-wrap: wrap;
         }
 
         #localVideo {
-            width: 240;
+            width: 360;
         }
+
         .remoteVideo {
             float: left;
         }
@@ -51,35 +59,35 @@
             }
         }
     </style>
-  </head>
-  <body>
-    <body>
-        <div id="video">
-            <table class="mainTable">
-                <tbody>
-                    <tr>
-                        <td class="localColumn">
-                            <video id="localVideo" autoplay class="video" muted ></video>
-                        </td>
-                        <td class="remoteColumn">
-                            <div id="videoContainer"></div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </body>
-  </body>
-  <footer>
-      <script src="bundle.js"></script>
-  </footer>
+</head>
+
+<body>
+    <div id="video">
+        <table class="mainTable">
+            <tbody>
+                <tr>
+                    <td class="localColumn">
+                        <video id="localVideo" autoplay class="video" muted></video>
+                    </td>
+                    <td class="remoteColumn">
+                        <div id="videoContainer"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<footer>
+    <script src="bundle.js"></script>
+</footer>
+
 </html>
